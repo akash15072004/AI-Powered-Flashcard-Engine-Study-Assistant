@@ -17,15 +17,19 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 PAGEINDEX_API_KEY = os.getenv("PAGEINDEX_API_KEY", "")
 
 # CORS
-FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:8080")
+FRONTEND_URL = os.getenv(
+    "FRONTEND_URL",
+    "https://ai-powered-flashcard-engine-study-a-seven.vercel.app"
+)
+
 ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://flashcard-engine-lac.vercel.app",  # Production frontend
+    "https://ai-powered-flashcard-engine-study-a-seven.vercel.app",
 ]
 
-# Add frontend URL if provided and not already in list
+# Add frontend URL if provided
 if FRONTEND_URL and FRONTEND_URL not in ALLOWED_ORIGINS:
     ALLOWED_ORIGINS.append(FRONTEND_URL)
 
