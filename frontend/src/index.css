@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Figtree:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 207 30% 96%;
+    --foreground: 210 50% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 50% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 50% 10%;
+
+    --primary: 200 60% 32%;
+    --primary-foreground: 200 20% 98%;
+
+    --secondary: 190 40% 90%;
+    --secondary-foreground: 200 60% 20%;
+
+    --muted: 207 20% 92%;
+    --muted-foreground: 210 15% 46%;
+
+    --accent: 174 50% 46%;
+    --accent-foreground: 174 80% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 207 25% 88%;
+    --input: 207 25% 88%;
+    --ring: 200 60% 32%;
+
+    --radius: 0.75rem;
+
+    --ocean-deep: 210 68% 15%;
+    --ocean-mid: 204 55% 27%;
+    --ocean-light: 190 52% 40%;
+    --ocean-glow: 174 50% 55%;
+
+    --sidebar-background: 210 68% 15%;
+    --sidebar-foreground: 200 20% 90%;
+    --sidebar-primary: 174 50% 55%;
+    --sidebar-primary-foreground: 210 68% 10%;
+    --sidebar-accent: 204 55% 22%;
+    --sidebar-accent-foreground: 200 20% 90%;
+    --sidebar-border: 204 40% 25%;
+    --sidebar-ring: 174 50% 55%;
+  }
+
+  .dark {
+    --background: 210 68% 8%;
+    --foreground: 200 20% 95%;
+
+    --card: 210 55% 12%;
+    --card-foreground: 200 20% 95%;
+
+    --popover: 210 55% 12%;
+    --popover-foreground: 200 20% 95%;
+
+    --primary: 174 50% 55%;
+    --primary-foreground: 210 68% 8%;
+
+    --secondary: 204 40% 20%;
+    --secondary-foreground: 200 20% 90%;
+
+    --muted: 210 30% 18%;
+    --muted-foreground: 200 15% 60%;
+
+    --accent: 190 52% 40%;
+    --accent-foreground: 200 20% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 30% 20%;
+    --input: 210 30% 20%;
+    --ring: 174 50% 55%;
+
+    --ocean-deep: 210 68% 10%;
+    --ocean-mid: 204 55% 20%;
+    --ocean-light: 190 52% 35%;
+    --ocean-glow: 174 50% 55%;
+
+    --sidebar-background: 210 68% 8%;
+    --sidebar-foreground: 200 20% 90%;
+    --sidebar-primary: 174 50% 55%;
+    --sidebar-primary-foreground: 210 68% 8%;
+    --sidebar-accent: 210 40% 15%;
+    --sidebar-accent-foreground: 200 20% 90%;
+    --sidebar-border: 210 30% 18%;
+    --sidebar-ring: 174 50% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+/* Subtle animations for professional feel */
+@keyframes gentle-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-gentle-float {
+  animation: gentle-float 3s ease-in-out infinite;
+}
