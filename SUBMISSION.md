@@ -8,11 +8,14 @@
 
 # 🔗 Live Deployment
 
-**Frontend:** [https://flashcard-engine-steel.vercel.app](https://flashcard-engine-steel.vercel.app)
+🚀 **Frontend (Vercel)**
+👉 https://ai-powered-flashcard-engine-study-a-seven.vercel.app
 
-**Backend API:** [https://flashcard-engine-qflr.onrender.com](https://flashcard-engine-qflr.onrender.com)
+⚙️ **Backend API (Render)**
+👉 https://ai-powered-flashcard-engine-study.onrender.com
 
-**GitHub Repository:** [https://github.com/akash15072004/FLASHCARD-ENGINE](https://github.com/akash15072004/FLASHCARD-ENGINE)
+📘 **API Docs (Swagger)**
+👉 https://ai-powered-flashcard-engine-study.onrender.com/docs
 
 ---
 
@@ -358,20 +361,7 @@ This project helped me gain hands-on experience in
 
 ---
 
-# 📞 Project Links
 
-**Live Application**
 
-[https://flashcard-engine-steel.vercel.app](https://flashcard-engine-steel.vercel.app)
-
-**Backend API**
-
-[https://flashcard-engine-qflr.onrender.com](https://flashcard-engine-qflr.onrender.com)
-
-**GitHub**
-
-[https://github.com/akash15072004/FLASHCARD-ENGINE](https://github.com/akash15072004/FLASHCARD-ENGINE)
-
----
 
 
