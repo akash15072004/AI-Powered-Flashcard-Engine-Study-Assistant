@@ -3,7 +3,7 @@
  * Pings the backend every 10 minutes to prevent spin-down
  */
 
-const BACKEND_URL = 'https://flashcard-engine-api-gfzf.onrender.com';
+const BACKEND_URL = 'https://ai-powered-flashcard-engine-study.onrender.com';
 const PING_INTERVAL = 10 * 60 * 1000; // 10 minutes in milliseconds
 
 async function pingBackend() {
