@@ -14,8 +14,22 @@ An intelligent flashcard application that transforms PDFs into comprehensive stu
 
 ## 🚀 About Me
 
-I am a final-year B.Tech IT student passionate about building scalable full-stack applications and integrating AI into real-world solutions.
-This project showcases my ability to design and develop an end-to-end system using modern technologies like FastAPI, React, and AI APIs.
+I am a recent B.Tech graduate in Information Technology with a strong interest in full-stack development and Artificial Intelligence. I enjoy building scalable applications that solve real-world problems using modern technologies such as React, FastAPI, and Large Language Models (LLMs).
+
+---
+
+## 🤖 AI Usage Note
+
+This project uses the **Groq API (Llama 3.3 70B Versatile)** to generate educational flashcards from uploaded PDF documents.
+
+### AI is used for:
+- Converting PDF content into question-answer flashcards
+- Identifying key concepts and definitions
+- Generating concise study material
+- Creating active recall learning cards
+
+### Human Logic
+The application handles PDF upload, authentication, database operations, progress tracking, spaced repetition scheduling, and user interaction using custom application logic. AI is only responsible for generating flashcard content from extracted text.
 
 ---
 
@@ -278,6 +292,20 @@ Convert static PDFs into interactive learning using AI and spaced repetition.
 
 ---
 
+## ⏱️ Development Time
+
+Approximate development time:
+
+- UI Design & Frontend: **3 hours**
+- Backend Development: **2.5 hours**
+- AI Integration (Groq API): **1.5 hours**
+- Authentication & Database: **1 hour**
+- Deployment & Testing: **1 hour**
+
+**Total Time Spent:** **~9 Hours**
+
+---
+
 ## 🔮 Future Enhancements
 
 * Mobile app
@@ -286,7 +314,18 @@ Convert static PDFs into interactive learning using AI and spaced repetition.
 * AI hints
 
 ---
+---
 
+## ⚠️ Limitations
+
+- Requires an active internet connection for AI-powered flashcard generation.
+- AI-generated flashcards depend on the quality and readability of the uploaded PDF.
+- Scanned PDFs without selectable text are not fully supported.
+- Large PDFs may require additional processing time.
+- The application currently supports English-language study material only.
+
+---
+  
 ## 📝 License
 
 MIT License
