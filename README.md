@@ -22,13 +22,13 @@ This project showcases my ability to design and develop an end-to-end system usi
 ## 🌐 Live Demo
 
 ### 🚀 Frontend (Vercel)
-👉 https://flashcard-engine-steel.vercel.app
+👉 https://ai-powered-flashcard-engine-study-a-seven.vercel.app
 
 ### ⚙️ Backend API (Render)
-👉 https://flashcard-engine-qflr.onrender.com
+👉 https://ai-powered-flashcard-engine-study.onrender.com
 
 ### 📘 API Docs (Swagger)
-👉 https://flashcard-engine-qflr.onrender.com/docs
+👉 https://ai-powered-flashcard-engine-study.onrender.com/docs
 
 ## ✨ Features
 
