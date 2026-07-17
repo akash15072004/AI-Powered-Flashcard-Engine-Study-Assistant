@@ -44,6 +44,18 @@ The application handles PDF upload, authentication, database operations, progres
 ### 📘 API Docs (Swagger)
 👉 https://ai-powered-flashcard-engine-study.onrender.com/docs
 
+### 🎥 Screen Recording
+👉 https://drive.google.com/file/d/1yenI2OzS3jEOlvTn8iuMbs9GbWtMasS9/view?usp=sharing
+
+**The screen recording covers:**
+- Running the project locally
+- User registration and login
+- Dashboard overview
+- Creating a new deck
+- PDF upload
+- AI-powered flashcard generation
+- Studying flashcards using **Try Answer First** and **Reveal Answer**
+
 ## ✨ Features
 
 ### 🎯 Core Functionality
